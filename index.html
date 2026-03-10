@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>V Siddharth Sharma | Full Stack Developer</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Tailwind CSS (for utility classes used in layout) -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Gradient Background -->
+    <div class="gradient-bg">
+        <div class="orb orb-1"></div>
+        <div class="orb orb-2"></div>
+        <div class="orb orb-3"></div>
+        <div class="orb orb-4"></div>
+    </div>
+
+    <!-- Back to Top -->
+    <div class="back-top" id="back-top" role="button" aria-label="Back to top" tabindex="0">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <polyline points="18 15 12 9 6 15"></polyline>
+        </svg>
+    </div>
+
+    <!-- Navigation -->
+    <nav role="navigation" aria-label="Main navigation">
+        <a href="#" class="logo">V<span>S</span>S</a>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#certificates">Certifications</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="mobile-toggle" role="button" aria-label="Toggle menu" tabindex="0">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <!-- Mobile Navigation -->
+    <div class="mobile-nav">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#certificates">Certifications</a>
+        <a href="#contact">Contact</a>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="fade-up">
+            <p class="hero-label">Full Stack Developer</p>
+        </div>
+        <h1 class="hero-name fade-up">V Siddharth<br>Sharma</h1>
+        <p class="hero-title fade-up">Building digital experiences with purpose</p>
+        <p class="hero-description fade-up">
+            Third-year Computer Science student specializing in <span class="highlight">full-stack development</span> 
+            with a passion for creating elegant solutions. Currently exploring the 
+            intersection of <span class="highlight">AI/ML</span> and web technologies.
+        </p>
+        <div class="flex gap-4 fade-up">
+            <a href="#contact" class="btn btn-primary">
+                Get in touch
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                    <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+            </a>
+            <a href="#projects" class="btn btn-outline">View projects</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="section-header fade-up">
+            <p class="section-label">About</p>
+            <h2 class="section-title">A brief introduction</h2>
+        </div>
+        <div class="about-grid">
+            <div class="about-text fade-up">
+                <p>
+                    I'm <strong>V Siddharth Sharma</strong>, a Computer Science student in my third year at 
+                    University of Technology. My journey into development started with a 
+                    curiosity about how digital products work, which evolved into a deep 
+                    passion for building them.
+                </p>
+                <p>
+                    I specialize in <span class="highlight">full-stack development</span>, with expertise in React.js, 
+                    Node.js, and modern web technologies. Beyond the fundamentals, I'm 
+                    actively exploring AI/ML integration in web applications.
+                </p>
+                <p>
+                    When I'm not coding, you'll find me participating in hackathons, 
+                    contributing to open source, or mentoring fellow students in our 
+                    university's coding club.
+                </p>
+            </div>
+            <div class="info-grid fade-up">
+                <div class="info-card">
+                    <h4>3+</h4>
+                    <p>Years of learning</p>
+                </div>
+                <div class="info-card">
+                    <h4>5+</h4>
+                    <p>Technologies</p>
+                </div>
+                <div class="info-card">
+                    <h4>Many</h4>
+                    <p>Hackathons</p>
+                </div>
+                <div class="info-card">
+                    <h4>8.5</h4>
+                    <p>Current CGPA</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" style="background: var(--bg-alt);">
+        <div class="section-header fade-up">
+            <p class="section-label">Skills</p>
+            <h2 class="section-title">Technical expertise</h2>
+            <p class="section-desc">Technologies and tools I work with on a regular basis.</p>
+        </div>
+        <div class="skills-container">
+            <div class="skill-category main fade-up">
+                <div class="skill-header">
+                    <div class="skill-dot"></div>
+                    <h3>Full Stack Development</h3>
+                    <span>Primary Domain</span>
+                </div>
+                <div class="skill-bars">
+                    <div class="skill-item">
+                        <span>Python</span>
+                        <span>90%</span>
+                    </div>
+                    <div class="skill-bar"><div class="skill-progress" data-width="90"></div></div>
+                    <div class="skill-item">
+                        <span>Java</span>
+                        <span>85%</span>
+                    </div>
+                    <div class="skill-bar"><div class="skill-progress" data-width="85"></div></div>
+                    <div class="skill-item">
+                        <span>MySql</span>
+                        <span>80%</span>
+                    </div>
+                    <div class="skill-bar"><div class="skill-progress" data-width="80"></div></div>
+                    <div class="skill-item">
+                        <span>HMTL, CSS, JS</span>
+                        <span>85%</span>
+                    </div>
+                    <div class="skill-bar"><div class="skill-progress" data-width="85"></div></div>
+                </div>
+            </div>
+            <div class="skill-category fade-up">
+                <div class="skill-header">
+                    <div class="skill-dot"></div>
+                    <h3>AI/ML</h3>
+                </div>
+                <div class="skill-tags">
+                    <span class="skill-tag">Python</span>
+                    <span class="skill-tag">TensorFlow</span>
+                    <span class="skill-tag">PyTorch</span>
+                    <span class="skill-tag">OpenCV</span>
+                    <span class="skill-tag">NLP</span>
+                    <span class="skill-tag">Scikit-learn</span>
+                </div>
+            </div>
+            <div class="skill-category fade-up">
+                <div class="skill-header">
+                    <div class="skill-dot"></div>
+                    <h3>Frontend</h3>
+                </div>
+                <div class="skill-tags">
+                    <span class="skill-tag">HTML5/CSS3</span>
+                    <span class="skill-tag">TypeScript</span>
+                    <span class="skill-tag">JavaScript</span>
+                </div>
+            </div>
+            <div class="skill-category fade-up">
+                <div class="skill-header">
+                    <div class="skill-dot"></div>
+                    <h3>Backend & Tools</h3>
+                </div>
+                <div class="skill-tags">
+                    <span class="skill-tag">Django</span>
+                    <span class="skill-tag">AWS</span>
+                    <span class="skill-tag">Docker</span>
+                    <span class="skill-tag">Git</span>
+                    <span class="skill-tag">Linux</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience">
+        <div class="section-header fade-up">
+            <p class="section-label">Experience</p>
+            <h2 class="section-title">Professional journey</h2>
+            <p class="section-desc">My internships and work experiences that shaped my skills.</p>
+        </div>
+        <div class="timeline">
+            <div class="timeline-item fade-up">
+                <div class="timeline-content">
+                    <div class="timeline-header">
+                        <h4>Full Stack Developer Intern</h4>
+                        <span class="timeline-tag">Current</span>
+                    </div>
+                    <p class="timeline-company">EduSkills</p>
+                    <p class="timeline-date">February 2026 - Present</p>
+                    <ul class="timeline-list">
+                        <li>Developing responsive web applications using React.js and Node.js</li>
+                        <li>Implemented RESTful APIs serving 10,000+ daily requests</li>
+                        <li>Collaborated with cross-functional teams to deliver features on schedule</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="timeline-item fade-up">
+                <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h4>Cloud Computing Intern</h4>
+                        </div>
+                        <p class="timeline-company">Hebbale Academy</p>
+                        <p class="timeline-date">May 2025 - June 2025 (45 Days)</p>
+                        <ul class="timeline-list">
+                            <li>Completed a virtual hands-on internship under the Industry Exposure Program (IEP).</li>
+                            <li>Worked on Cloud Computing using AWS services including Lambda, S3, and DynamoDB.</li>
+                            <li>Developed backend solutions using Python and integrated cloud services.</li>
+                            <li>Participated in the Cloud First Hackathon and gained practical cloud deployment experience.</li>
+                            <li>Used tools such as Git and VS Code for development and version control.</li>
+                        </ul>
+                    </div>
+            </div>
+           <div class="timeline-item fade-up">
+                <div class="timeline-content">
+                    <div class="timeline-header">
+                        <h4>Artificial Intelligence & Machine Learning Intern</h4>
+                    </div>
+                    <p class="timeline-company">
+                        Central Tool Room & Training Centre (CTTC), Bhubaneswar – Rayagada Extn. Centre
+                    </p>
+                    <p class="timeline-date">
+                        June 1, 2024 - June 30, 2024
+                    </p>
+                    <ul class="timeline-list">
+                        <li>Completed industrial training in Artificial Intelligence and Machine Learning (AIML).</li>
+                        <li>Gained practical exposure to AI/ML concepts and software tools used in industry.</li>
+                        <li>Worked on hands-on exercises related to machine learning and data analysis.</li>
+                        <li>Understood practical applications of AI in engineering and real-world problem solving.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Projects Section -->
+    <section id="projects" style="background: var(--bg-alt);">
+        <div class="section-header fade-up">
+            <p class="section-label">Projects</p>
+            <h2 class="section-title">Featured work</h2>
+            <p class="section-desc">A selection of projects I've built and contributed to.</p>
+        </div>
+        <div class="projects-grid">
+            
+            <div class="project-card fade-up">
+                <div class="project-image">
+                    <img src="BG1.png" alt="Crop Disease Prediction System" class="project-img">
+                    <div class="project-overlay">
+                        <a href="#" class="overlay-btn">Live Demo</a>
+                        <a href="#" class="overlay-btn">Code</a>
+                    </div>
+                </div>
+                <div class="project-body">
+                    <h4>Crop Disease Prediction System</h4>
+                    <p>
+                        A machine learning based system that detects crop diseases using image analysis. 
+                        Farmers can upload crop leaf images to identify diseases early and take preventive 
+                        measures to improve crop health and productivity.
+                    </p>
+                    <div class="project-tags">
+                        <span>Python</span>
+                        <span>Machine Learning</span>
+                        <span>Scikit-learn</span>
+                        <span>Pandas</span>
+                        <span>Flask</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card fade-up">
+                <div class="project-image">
+                    <img src="BG2.png" alt="Crop Recommendation System" class="project-img">
+                    <div class="project-overlay">
+                        <a href="#" class="overlay-btn">Live Demo</a>
+                        <a href="#" class="overlay-btn">Code</a>
+                    </div>
+                </div>
+                <div class="project-body">
+                    <h4>Crop Recommendation System</h4>
+                    <p>
+                        A machine learning based system that recommends the most suitable crops 
+                        for cultivation based on soil nutrients, temperature, humidity, rainfall, 
+                        and environmental factors to help farmers improve productivity.
+                    </p>
+                    <div class="project-tags">
+                        <span>Python</span>
+                        <span>Machine Learning</span>
+                        <span>Scikit-learn</span>
+                        <span>Pandas</span>
+                        <span>Flask</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card fade-up">
+                <div class="project-image">
+                    <img src="BG3.png" alt="Online Ticket Booking System" class="project-img">
+                    <div class="project-overlay">
+                        <a href="#" class="overlay-btn">Live Demo</a>
+                        <a href="#" class="overlay-btn">Code</a>
+                    </div>
+                </div>
+
+                <div class="project-body">
+                    <h4>Online Ticket Booking System</h4>
+                    <p>
+                        A web-based ticket booking platform that allows users to book tickets 
+                        for movies, trains, flights, and events in one place. The system provides 
+                        an interactive interface for selecting schedules, choosing seats, and 
+                        securely managing bookings with a MySQL database backend.
+                    </p>
+
+                    <div class="project-tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                        <span>MySQL</span>
+                        <span>Node.js</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card fade-up">
+                <div class="project-image">
+                    <img src="BG4.png" alt="Pixel Arcade Gaming Library" class="project-img">
+                    <div class="project-overlay">
+                        <a href="#" class="overlay-btn">Live Demo</a>
+                        <a href="#" class="overlay-btn">Code</a>
+                    </div>
+                </div>
+
+                <div class="project-body">
+                    <h4>Pixel Arcade - Gaming Library</h4>
+                    <p>
+                        A gaming library platform where users can explore and download different games, 
+                        participate in online tournaments, and discover trending titles. The website 
+                        provides an interactive arcade-style interface for gamers using modern web technologies.
+                    </p>
+
+                    <div class="project-tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+                </div>
+            </div>
+
+                </section>
+
+    <!-- Certifications Section -->
+    <section id="certificates">
+    <div class="section-header fade-up">
+        <p class="section-label">Certifications</p>
+        <h2 class="section-title">Professional credentials</h2>
+    </div>
+
+    <div class="cert-grid">
+
+        <div class="cert-item fade-up">
+            <div class="cert-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2">
+                    <circle cx="12" cy="8" r="7"></circle>
+                    <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline>
+                </svg>
+            </div>
+            <div class="cert-info">
+                <h4>Data Science Hackathon Participation</h4>
+                <p>IIT Bhubaneswar – Pravaah'26</p>
+            </div>
+        </div>
+
+        <div class="cert-item fade-up">
+            <div class="cert-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2">
+                    <circle cx="12" cy="8" r="7"></circle>
+                    <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline>
+                </svg>
+            </div>
+            <div class="cert-info">
+                <h4>Industry Exposure Program (Python & AWS)</h4>
+                <p>Hebbale Academy, 2025</p>
+            </div>
+        </div>
+
+        <div class="cert-item fade-up">
+            <div class="cert-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2">
+                    <circle cx="12" cy="8" r="7"></circle>
+                    <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline>
+                </svg>
+            </div>
+            <div class="cert-info">
+                <h4>AI & Machine Learning Industrial Training</h4>
+                <p>Central Tool Room & Training Centre (MSME), 2024</p>
+
+            </div>
+        </div>
+
+        <div class="cert-item fade-up">
+            <div class="cert-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2">
+                    <circle cx="12" cy="8" r="7"></circle>
+                    <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline>
+                </svg>
+            </div>
+            <div class="cert-info">
+                <h4>Data Structures & Algorithms Internship</h4>
+                <p>YHills, 2024</p>
+            </div>
+        </div>
+
+        <div class="cert-item fade-up">
+            <div class="cert-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2">
+                    <circle cx="12" cy="8" r="7"></circle>
+                    <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline>
+                </svg>
+            </div>
+            <div class="cert-info">
+                <h4>Internet of Things (IoT) Workshop</h4>
+                <p>Android & IoT Club, GIET University</p>
+            </div>
+        </div>
+
+        <div class="cert-item fade-up">
+            <div class="cert-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2">
+                    <circle cx="12" cy="8" r="7"></circle>
+                    <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline>
+                </svg>
+            </div>
+            <div class="cert-info">
+                 <h4>Cyber Yaan Cyber Security Workshop</h4>
+                <p>GIET University, 2023</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Achievements Section -->
+    <section style="background: var(--bg-alt);">
+        <div class="section-header fade-up">
+            <p class="section-label">Achievements</p>
+            <h2 class="section-title">Recognition & milestones</h2>
+        </div>
+        <div class="achievement-grid">
+            <div class="achievement-card fade-up">
+                <h3>1st Place</h3>
+                <p>Smart India Hackathon 2023</p>
+            </div>
+            <div class="achievement-card fade-up">
+                <h3>Dean's List</h3>
+                <p>Academic Excellence 2022-24</p>
+            </div>
+            <div class="achievement-card fade-up">
+                <h3>2nd Runner Up</h3>
+                <p>National Coding Championship</p>
+            </div>
+            <div class="achievement-card fade-up">
+                <h3>50+ Contributions</h3>
+                <p>Open Source in 2023</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+        <!-- Education Section -->
+    <section id="education">
+        <div class="section-header fade-up">
+            <p class="section-label">Education</p>
+            <h2 class="section-title">Academic background</h2>
+        </div>
+        <div class="education-grid">
+            <!-- University Card (Latest First) -->
+            <div class="edu-card fade-up">
+                <div class="edu-header">
+                    <div>
+                        <h3>Bachelor of Technology in Computer Science</h3>
+                        <p>Gandhi Institue Of Engineering and Technology University, Gunupur</p>
+                    </div>
+                    <div class="edu-meta">
+                        <p>2023 - 2027 (Expected)</p>
+                        <h4>CGPA: 8.45/10</h4>
+                        <p style="font-size: 0.8rem; color: var(--accent); margin-top: 0.25rem; font-weight: 500;">Currently: 3rd Year (6th Sem)</p>
+                    </div>
+                </div>
+                <div class="edu-details">
+                    <div class="edu-detail-item">
+                        <h4>Relevant Coursework</h4>
+                        <p>Data Structures, Algorithms, Database Management, Computer Networks, Software Engineering, Machine Learning</p>
+                    </div>
+                    <div class="edu-detail-item">
+                        <h4>Technical Clubs</h4>
+                        <p>Coding Club President, AI/ML Club Member, Tech Community Organizer</p>
+                    </div>
+                    <div class="edu-detail-item">
+                        <h4>Key Activities</h4>
+                        <p>Workshop Speaker, Hackathon Mentor, Open Source Contributor</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 12th Grade Card -->
+            <div class="edu-card fade-up">
+                <div class="edu-header">
+                    <div>
+                        <h3>Senior Secondary (Class XII)</h3>
+                        <p>Rayagada Higher Seconday School, Rayagada</p>
+                    </div>
+                    <div class="edu-meta">
+                        <p>2021 - 2022</p>
+                        <h4>Percentage: 66.83%</h4>
+                    </div>
+                </div>
+                <div class="edu-details">
+                    <div class="edu-detail-item">
+                        <h4>Board</h4>
+                        <p>State Board -CHSE</p>
+                    </div>
+                    <div class="edu-detail-item">
+                        <h4>Stream</h4>
+                        <p>Science (PCM with Computer Science)</p>
+                    </div>
+                    <div class="edu-detail-item">
+                        <h4>Key Subjects</h4>
+                        <p>Physics, Chemistry, Mathematics, Information Technology, English, Hindi</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="edu-card fade-up">
+            <div class="edu-header">
+                <div>
+                    <h3>Secondary Education (Class X)</h3>
+                    <p>St. Xavier's High School, Rayagada</p>
+                </div>
+                    <div class="edu-meta">
+                        <p>2020 - 2021</p>
+                        <h4>Percentage: 85.33%</h4>
+                    </div>
+                </div>
+                <div class="edu-details">
+                    <div class="edu-detail-item">
+                        <h4>Board</h4>
+                        <p>CBSE</p>
+                    </div>
+
+                    <div class="edu-detail-item">
+                        <h4>Stream</h4>
+                        <p>General Education</p>
+                    </div>
+
+                    <div class="edu-detail-item">
+                        <h4>Key Subjects</h4>
+                        <p>Mathematics, Science, Social Science, English, Hindi, Information Technology</p>
+                    </div>
+                </div>
+                </div>
+        </div>
+    </section>
+    <!-- Contact Section -->
+    <section id="contact" style="background: var(--bg-alt);">
+        <div class="section-header fade-up">
+            <p class="section-label">Contact</p>
+            <h2 class="section-title">Let's connect</h2>
+            <p class="section-desc">I'm currently open to new opportunities and collaborations.</p>
+        </div>
+        <div class="contact-grid">
+            <div class="fade-up">
+                <div class="contact-info-grid">
+                    <div class="contact-card">
+                        <p>Email</p>
+                        <h4>vsiddharthsharma333@gmail.com</h4>
+                    </div>
+                    <div class="contact-card">
+                        <p>Phone</p>
+                        <h4>+91 77350 97074</h4>
+                    </div>
+                    <div class="contact-card">
+                        <p>Location</p>
+                        <h4>Rayagada, Odisha, India</h4>
+                    </div>
+                    <div class="contact-card">
+                        <p>LinkedIn</p>
+                        <h4>linkedin.com/in/vsiddharth</h4>
+                    </div>
+                </div>
+                <div class="social-links">
+                    <a href="https://github.com/Siddharth-129" class="social-link" aria-label="GitHub">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                        </svg>
+                    </a>
+                    <a href="www.linkedin.com/in/v-siddharth-sharma-51bb1727a" class="social-link" aria-label="LinkedIn">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                            <rect x="2" y="9" width="4" height="12"></rect>
+                            <circle cx="4" cy="4" r="2"></circle>
+                        </svg>
+                    </a>
+                    <a href="#" class="social-link" aria-label="Twitter">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <form class="form-grid fade-up" id="contact-form">
+                <div class="form-row">
+                    <input type="text" placeholder="Your name" class="form-input" required aria-label="Your name">
+                    <input type="email" placeholder="Your email" class="form-input" required aria-label="Your email">
+                </div>
+                <input type="text" placeholder="Subject" class="form-input" aria-label="Subject">
+                <textarea placeholder="Your message" class="form-input" required aria-label="Your message"></textarea>
+                <button type="submit" class="btn btn-primary" style="width: fit-content;">
+                    Send message
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <line x1="22" y1="2" x2="11" y2="13"></line>
+                        <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                    </svg>
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>Designed and built by V Siddharth Sharma. 2026</p>
+    </footer>
+
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>
